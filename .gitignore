@@ -1,0 +1,50 @@
+# Dataset directory (too large for GitHub)
+data/
+
+# Model files (large binary files)
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Training outputs
+results/
+logs/
+plots/
+*.png
+*.jpg
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
