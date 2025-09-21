@@ -180,7 +180,7 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 ## Contact
 
-For questions or collaboration opportunities, please open an issue or contact [your-email@domain.com].
+For questions or collaboration opportunities, please open an issue or contact [yusefsaid@hotmail.com].
 
 ---
 
