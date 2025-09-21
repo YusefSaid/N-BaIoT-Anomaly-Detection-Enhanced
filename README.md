@@ -1,4 +1,4 @@
-# N-BaIoT Enhanced Research
+# N-BaIoT-Anomaly-Detection-Enhanced
 
 Research project extending IoT botnet detection using the N-BaIoT dataset with improved methodology and additional ML approaches.
 
