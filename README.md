@@ -29,6 +29,18 @@ The preprocessed dataset (455MB) was created by Gutowska (2021) for anomaly dete
 
 Download and place in `data/` directory.
 
+## Technologies
+
+**Core Stack:**
+- Python 3.7+, TensorFlow 2.x, scikit-learn, NumPy, Pandas
+
+**ML Techniques:**
+- Deep autoencoders for unsupervised anomaly detection
+- RobustScaler preprocessing, threshold optimization
+- Comprehensive evaluation metrics (F1, precision, recall)
+
+**Hardware:** 8GB+ RAM recommended, GPU optional for faster training
+
 ## Quick Start
 
 ```bash
@@ -46,8 +58,22 @@ python custom_model.py
 
 - `custom_data_loader.py` - Enhanced data loading with proper methodology
 - `custom_model.py` - Autoencoder with threshold optimization  
+- `debug_data.py` - Data quality analysis and issue detection
+- `validate_data.py` - Comprehensive dataset validation and consistency checks
 - `original_code/` - Original implementation files
 - `papers/` - Research papers and references
+
+### Utility Scripts
+
+**When to use debug_data.py:**
+- Before training to identify data quality issues
+- When working with new datasets
+- To understand feature distributions and correlations
+
+**When to use validate_data.py:**
+- To verify dataset integrity after download
+- To check train/test file consistency
+- For comprehensive data quality reporting
 
 ## Research Notes
 
