@@ -1,7 +1,7 @@
 """
-Data Validation Script for N-BaIoT Dataset
+Data Validation Script for N-BaIoT Dataset:
 
-This script validates the dataset structure and identifies potential issues
+The purpose for this script is to validates the dataset structure and to identify potential issues
 like target columns, data leakage, and feature quality problems.
 """
 
