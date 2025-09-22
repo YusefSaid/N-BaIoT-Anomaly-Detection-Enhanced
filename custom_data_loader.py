@@ -1,7 +1,11 @@
 """
-Improved Data Loader with Robust Target Column Handling
+Core Info regarding this script:
 
-This version automatically detects and removes potential label columns
+The following code takes inspiration from the original Data Loader code, 
+(found in original_code folder) but designed for the preprocessed dataset instead.
+The script focuses on the "Target Column Handling".
+
+The script automatically detects and removes potential label columns
 to prevent data leakage and follows the original N-BaIoT methodology.
 """
 
@@ -20,7 +24,7 @@ class NBaloTDataLoader:
         self.excluded_columns = []  # Track excluded columns
         
     def detect_label_columns(self, df):
-        """Automatically detect potential label/target columns"""
+        """ Automatically detect potential label/target columns"""
         suspicious_columns = []
         
         for col in df.columns:
